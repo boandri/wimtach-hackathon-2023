@@ -10,7 +10,7 @@ function Journal() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    let [journals, setJournals] = useState(['Wednesday, March 24', 'Today\'s work / Friday, March 20','Thoughts / Thursday, March 19']);
+    let [journals, setJournals] = useState(['Wednesday, March 25', 'Today\'s work / Friday, March 20','Thoughts / Thursday, March 19']);
     let [inputValue, setInputValue] = useState('');
 
     let [details, setDetails] = useState();
